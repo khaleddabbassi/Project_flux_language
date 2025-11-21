@@ -1,0 +1,18 @@
+course reportFlux() {
+    mutable parts = [
+	" This is Flux---19",
+	" Powered by", 
+	" Khaled & Mercy & Dewi",
+	" Edition: Contented Mercy "];
+    
+	report(" Output :");
+	report(" ");
+	
+    iterate part across parts {
+        report(part);
+    }
+	report(" ");
+	report(" Exiting");
+}
+
+reportFlux();
